@@ -15,6 +15,9 @@ Performing this work on ibest machine watson.
 ```
 git clone https://github.com/pbfrandsen/insect_genome_assemblies
 
+cd ~/bin/
 curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets'
 chmod +x datasets
+
+export PATH=$PATH:/mnt/ceph/stah3621/bin/datasets
 ```
